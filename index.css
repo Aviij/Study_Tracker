@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    
+}
+html{
+    color-scheme: light dark;
+}
+
+body{
+    
+    background-size: cover;
+    background-position: center center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar{
+    display: flex;
+    background-color: #000000;
+    align-items: center;
+}
+
+.header{
+
+    display: flex;
+    background-color: #000000;
+    width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+}
+li,a{
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.nav__links{
+    list-style: none;
+    align-items: center;
+    text-align: center;
+  
+
+}
+.nav__links li {
+    display: inline-block;
+    
+   
+
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #151515;
+}
+
+
+
+.card {
+   border: 1px solid #000000;
+   border-radius: 50px;
+   box-shadow: 2px 2px 4px rgba(41, 39, 39, 0.47);
+   padding: 0px;
+   width: 400px;
+   margin: 50 auto;
+   background-color: #fbfbfb;
+   background-image: url("eyed.jpg");
+   background-size: 120%;
+   background-repeat: no-repeat;
+   background-position:center;
+  
+   
+  
+ 
+}
+
+.container-base{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bio{
+
+    text-align:right ;
+    font-size:50px ;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    background-color: #151515;
+    border-radius: 20px;
+    padding: 5px;
+
+    
+}
+
+.bio:hover{
+    background-color: #fbfbfb;
+    transform: translate();
+    color: #000000;
+}
+
+button{
+
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:rgb(235, 232, 239);
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    
+}
+
+h2{
+    padding: 10px;
+    align-items: center;
+    background-color: #151515;
+}
+#increment-id{
+
+    background: rgb(0, 138, 159);
+}
+
+.hours{
+    size: 60px;
+    background-color: #000000;
+    font-size: 60px;
+    padding: 5px;
+
+
+}
+
+#save-btn{
+    background: rgb(94, 200, 94);
+}
+
+#reset-btn{
+    background: #f92222;
+    width: 50px;
+}
+
+#reset-btn:hover{
+    background-color:#ec8787 ;
+}
+p{
+    color: rgb(248, 248, 248);
+    font-size: 20px;
+    
+}
+
+.name-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.fa-facebook {
+    color: rgb(94, 157, 234);
+    font-size: 24px;
+  }
+  
+.fa-search{
+    font-size: 24px;
+}
